@@ -1,4 +1,4 @@
-# Small Bitcoin Wallet Collision Program
+# Tiny Bitcoin Wallet Collision Program
 
 50 lines of code, with multiprocessing. Tested againts 23,205,715 public keys. 
 Apple M1 Macbook pro able to generate and compare around 150,000 key per seconds.
