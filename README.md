@@ -29,7 +29,7 @@ python btcposbal2csv.py /path/to/your/chainstate /path/to/desired/addresses_with
 ```
 
 
-## Credits:
+## Credits
 - https://github.com/ofek/bit
 - https://github.com/vlnahp/Btcbf
 - https://github.com/Isaacdelly/Plutus
