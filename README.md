@@ -23,8 +23,8 @@ python3 ./btcwc.py debug | pv -i2 -ltr > /dev/null
 ```
 
 ## Tips
-Build your own bitcoin address database with full bitcoin node current chain state.
-- https://github.com/graymauser/btcposbal2csv
+Build your own bitcoin address database with full bitcoin node current chain state. Fork from graymauser's repo, updated graymauser to python3
+- https://github.com/xwings/btcposbal2csv
 ```
 python btcposbal2csv.py /path/to/your/chainstate /path/to/desired/addresses_with_balance.csv
 ```
