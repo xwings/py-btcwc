@@ -5,7 +5,7 @@ Based on ofek's bit library. 50 lines of code, with multiprocessing. Tested agai
 - address.txt is a file to store all the public keys
 - letsgetrich.txt is a file to store public and private keys 
 
-### How To
+## How To
 Utilize all CPUs
 ```bash
 python3 ./btcwc.py
