@@ -21,6 +21,14 @@ Benchmarking
 python3 ./btcwc.py debug | pv -i2 -ltr > /dev/null
 ```
 
+## Tips
+Build your own bitcoin address database with full bitcoin node current chain state.
+- https://github.com/graymauser/btcposbal2csv
+```
+python btcposbal2csv.py /path/to/your/chainstate /path/to/desired/addresses_with_balance.csv
+```
+
+
 Credit:
 - https://github.com/ofek/bit
 - https://github.com/vlnahp/Btcbf
