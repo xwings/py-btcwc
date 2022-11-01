@@ -40,7 +40,7 @@ class Btcwc():
 
 if __name__ =="__main__":
         bwc = Btcwc()
-        cpu_count = cpu_count // 2 if bwc.cpuhalf is True else cpu_count()
+        cpu_count = cpu_count() // 2 if bwc.cpuhalf is True else cpu_count()
         bwc.total_address = bwc.public_keys()
 
         print(f"\nTargeting {len(bwc.total_address.keys())} BTC addresses with {cpu_count} processes")
