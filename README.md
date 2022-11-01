@@ -3,16 +3,16 @@
 Based on ofek's bit library. 50 lines of code with multiprocessing. Tested againts 23,205,715 public keys. Apple M1 Macbook pro able to generate and compare around 150,000 key per seconds. 
 
 - Python 3.8 and above
-- address.txt is a file to store all the public keys
+- address.csv is a file to store all the public keys
 - letsgetrich.txt is a file to store public and private keys 
 
 ## How To
-Utilize all CPUs
+100% CPU Utilization
 ```bash
 python3 ./btcwc.py
 ```
 
-Utilized half CPUs
+50% CPU Utilization
 ```bash
 python3 ./btcwc.py half
 ```
@@ -22,11 +22,11 @@ Benchmarking
 python3 ./btcwc.py debug | pv -i2 -ltr > /dev/null
 ```
 
-## Tips
-Build your own bitcoin address database with full bitcoin node current chain state. Fork from graymauser's repo, updated graymauser to python3
+## Database
+Build your own bitcoin address database with full bitcoin node. Forked from graymauser's repo, updated to python3.
 - https://github.com/xwings/btcposbal2csv
 ```
-python btcposbal2csv.py /path/to/your/chainstate /path/to/desired/addresses_with_balance.csv
+python3 btcposbal2csv.py /path/to/your/chainstate /path/to/desired/addresses_with_balance.csv
 ```
 
 
