@@ -10,7 +10,7 @@ class Btcwc():
         self.tg_chat_id = None
         
     def public_keys(self):
-        load_data = open("address.txt", "r").readlines()
+        load_data = open("address.csv", "r").readlines()
         load_data = [x.rstrip() for x in load_data]
         # Remove invalid wallet addresses
         load_data = [x for x in load_data if x.find('wallet') == -1 and len(x) > 0]
