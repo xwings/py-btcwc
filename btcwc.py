@@ -27,7 +27,7 @@ class Btcwc():
             return (f"Found Public Adress: {key.address} Private Key: {key.to_wif()}\n")
 
         if key.address in self.total_address.keys():
-            with open("letsgetrich.txt", "a") as f:
+            with open("getaddress.txt", "a") as f:
                 f.write(report())
             if (self.tg_token and self.tg_chat_id):
                 self.send_tg_msg(report())
