@@ -14,12 +14,12 @@ python3 ./btcwc.py
 
 50% CPU Utilization
 ```bash
-python3 ./btcwc.py half
+python3 ./btcwc.py --half
 ```
 
 Benchmarking 
 ```bash
-python3 ./btcwc.py debug | pv -i2 -ltr > /dev/null
+python3 ./btcwc.py --debug | pv -i2 -ltr > /dev/null
 ```
 
 ## Database

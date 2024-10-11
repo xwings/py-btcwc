@@ -1,3 +1,3 @@
-*.db
-*.log
+address_*
+log.txt
 btcvenv/
