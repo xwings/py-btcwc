@@ -28,7 +28,6 @@ Build your own bitcoin address database with full bitcoin node. Forked from gray
 python3 btcposbal2csv.py /path/to/your/chainstate /path/to/desired/addresses_with_balance.csv
 ```
 
-
 ## Credits
 - https://github.com/ofek/bit
 - https://github.com/vlnahp/Btcbf
