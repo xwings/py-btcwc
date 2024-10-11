@@ -7,7 +7,6 @@ Based on ofek's bit library. < 100 lines of code with multiprocessing. Tested ag
 - letsgetrich.txt is a file to store public and private keys 
 
 ## How To
-100% CPU Utilization
 ```bash
 python3 ./btcwc.py
 ```
